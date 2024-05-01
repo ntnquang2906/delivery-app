@@ -2,7 +2,7 @@ import React from 'react'
 
 const ChooseSite = () => {
     return (
-        <div>ChooseSite</div>
+        <div>ChooseSite 2</div>
     )
 }
 
