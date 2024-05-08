@@ -1,0 +1,48 @@
+.container {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.restaurant_logo {
+    margin: auto;
+    margin-bottom: 4px;
+    border-radius: 8px;
+}
+
+.restaurant_name {
+    font-size: 24px;
+}
+
+.restaurant_location {
+    margin-top: 8px;
+}
+
+.item_card {
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+.item_image {
+    margin-right: 16px;
+}
+
+.item_title {
+    font-size: 18px;
+}
+
+.item_description {
+    margin-top: 8px;
+    color: #718096;
+}
+
+.item_price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #38a169;
+}
+
+.add_button {
+    margin-left: auto;
+}

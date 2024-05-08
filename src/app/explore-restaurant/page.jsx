@@ -3,7 +3,7 @@ import React from 'react'
 import { useContext } from 'react'
 import { StoreContext } from '@/context/StoreContext'
 import Restaurant from "@/components/Restaurant"
-import {res_display, res_display_list} from '@/styles/Explore_restaurant.module.css'
+import { res_display, res_display_list } from '@/styles/Explore_restaurant.module.css'
 
 const ExploreRestaurant = ({ category }) => {
     const { restaurant_list } = useContext(StoreContext)

@@ -6,6 +6,7 @@ import { MdLocationOn } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
 import { FaCartShopping } from "react-icons/fa6";
 import Image from 'next/image'
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -24,7 +25,9 @@ const Navbar = () => {
             <div className={navbar_right}>
                 <FaUser className={user_icon} />
                 <div className={shopping}>
-                    <FaCartShopping className={shopping_icon} />
+                    <Link href="/shopping-cart" passHref legacyBehavior>
+                        <FaCartShopping className={shopping_icon} />
+                    </Link>
                     <div className={dot}></div>
                 </div>
             </div>

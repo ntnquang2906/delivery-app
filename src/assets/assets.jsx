@@ -54,21 +54,19 @@ import logo from './logo.png'
 // import twitter_icon from './twitter_icon.png'
 // import cross_icon from './cross_icon.png'
 // import selector_icon from './selector_icon.png'
-// import rating_starts from './rating_starts.png'
+import rating_starts from './rating_starts.png'
 // import profile_icon from './profile_icon.png'
 // import bag_icon from './bag_icon.png'
 // import logout_icon from './logout_icon.png'
 // import parcel_icon from './parcel_icon.png'
 
+
 export const assets = {
-    logo
-}
-// export const assets = {
-//     logo,
+    logo,
 //     basket_icon,
 //     header_img,
 //     search_icon,
-//     rating_starts,
+    rating_starts,
 //     add_icon_green,
 //     add_icon_white,
 //     remove_icon_red,
@@ -83,7 +81,7 @@ export const assets = {
 //     logout_icon,
 //     bag_icon,
 //     parcel_icon
-// }
+}
 
 
 
@@ -92,7 +90,7 @@ export const restaurant_list = [
     {
         _id: "1",
         name: "McDonald's (Wollongong)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
+        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         time: 12,
         fee: 8,
         category: "Salad"
@@ -100,7 +98,7 @@ export const restaurant_list = [
     {
         _id: "2",
         name: "KFC (Fairy Meadow)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
+        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
@@ -108,7 +106,7 @@ export const restaurant_list = [
     {
         _id: "1",
         name: "McDonald's (Wollongong)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
+        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         time: 12,
         fee: 8,
         category: "Salad"
@@ -116,7 +114,7 @@ export const restaurant_list = [
     {
         _id: "2",
         name: "KFC (Fairy Meadow)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
+        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
@@ -124,7 +122,7 @@ export const restaurant_list = [
     {
         _id: "1",
         name: "McDonald's (Wollongong)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
+        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         time: 12,
         fee: 8,
         category: "Salad"
@@ -132,7 +130,7 @@ export const restaurant_list = [
     {
         _id: "2",
         name: "KFC (Fairy Meadow)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
+        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
@@ -140,7 +138,7 @@ export const restaurant_list = [
     {
         _id: "1",
         name: "McDonald's (Wollongong)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
+        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         time: 12,
         fee: 8,
         category: "Salad"
@@ -148,23 +146,7 @@ export const restaurant_list = [
     {
         _id: "2",
         name: "KFC (Fairy Meadow)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
-        price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
-    },
-    {
-        _id: "1",
-        name: "McDonald's (Wollongong)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
-        time: 12,
-        fee: 8,
-        category: "Salad"
-    },
-    {
-        _id: "2",
-        name: "KFC (Fairy Meadow)",
-        image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Ffood&psig=AOvVaw0k2E8Ff72wab5SqYgf2QyU&ust=1714665980250000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJCM797q7IUDFQAAAAAdAAAAABAR",
+        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
