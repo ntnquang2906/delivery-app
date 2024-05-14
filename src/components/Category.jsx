@@ -1,5 +1,5 @@
 import React from 'react'
-import {category_title, category_content, box, category, checkmark, } from '@/styles/Category.module.css'
+import { category_title, category_content, box, category, checkmark, } from '@/styles/Category.module.css'
 const Category = () => {
     return (
         <div class="cat_card">

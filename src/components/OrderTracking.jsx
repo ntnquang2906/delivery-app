@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from "react";
 import { orders } from "@/assets/db";
+import Link from "next/link";
 
 export default function OrderTrackingPage() {
     const [ongoingOrders, setOngoingOrders] = useState([]);
@@ -13,7 +14,7 @@ export default function OrderTrackingPage() {
                 // Simulate fetching data from orders file
                 // const response = await fetch(orders);
                 // const data = await response.json();
-                
+
                 // For demonstration, use data from orders file directly
                 const data = orders;
 
@@ -70,12 +71,14 @@ export default function OrderTrackingPage() {
                                     <h3 style={{ fontSize: "18px", marginBottom: "8px" }}>Order ID: {order.id}</h3>
                                     <p style={{ marginBottom: "4px" }}>Date: {order.date}</p>
                                 </div>
-                                <button style={{ padding: "8px 12px", borderRadius: "4px", border: "none", backgroundColor: "#28a745", color: "#fff", fontWeight: "bold", cursor: "pointer" }}>View Receipt</button>
+                                <Link href="/receipt">
+                                    <button style={{ padding: "8px 12px", borderRadius: "4px", border: "none", backgroundColor: "#28a745", color: "#fff", fontWeight: "bold", cursor: "pointer" }}>View Receipt</button>
+                                </Link>
                             </div>
                         ))}
                     </div>
                 )}
             </div>
-        </div>
+        </div >
     );
 }

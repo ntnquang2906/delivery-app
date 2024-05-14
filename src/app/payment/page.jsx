@@ -1,5 +1,6 @@
 "use client"
 import { useState } from "react";
+import Link from 'next/link'
 
 export default function PaymentPage() {
     const [cardNumber, setCardNumber] = useState('');
@@ -34,7 +35,9 @@ export default function PaymentPage() {
                         <label htmlFor="name">Name on Card</label>
                         <input type="text" id="name" value={name} onChange={(e) => setName(e.target.value)} style={{ width: "100%", padding: "8px", borderRadius: "4px", border: "1px solid #ccc" }} />
                     </div>
-                    <button style={{ width: "100%", padding: "12px", borderRadius: "4px", border: "none", backgroundColor: "#28a745", color: "#fff", fontWeight: "bold", cursor: "pointer" }} onClick={handlePayment}>Pay Now</button>
+                    <Link href='/receipt'>
+                        <button style={{ width: "100%", padding: "12px", borderRadius: "4px", border: "none", backgroundColor: "#28a745", color: "#fff", fontWeight: "bold", cursor: "pointer" }} onClick={handlePayment}>Pay Now</button>
+                    </Link>
                     <p style={{ textAlign: "center", fontSize: "14px", color: "#777" }}>Secure payment gateway</p>
                 </div>
                 <div>

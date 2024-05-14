@@ -11,8 +11,9 @@ import Link from 'next/link';
 const Navbar = () => {
     return (
         <div className={navbar}>
-            <Image src={assets.logo} width={50}
-                height={50} alt="" className={logo} />
+            <Link href='/explore-restaurant'>
+                <Image src={assets.logo} width={50} height={50} alt="" className={logo} />
+            </Link>
             <div class={location_box}>
                 <MdLocationOn class={location_icon} />
                 <input type='text' placeholder='Location' className={location} id="location" />
@@ -23,7 +24,9 @@ const Navbar = () => {
             </div>
 
             <div className={navbar_right}>
+                <Link href='/personal-information'>
                 <FaUser className={user_icon} />
+                </Link>
                 <div className={shopping}>
                     <Link href="/shopping-cart" passHref legacyBehavior>
                         <FaCartShopping className={shopping_icon} />

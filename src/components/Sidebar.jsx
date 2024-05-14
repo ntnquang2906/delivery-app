@@ -1,5 +1,5 @@
 import React from 'react'
-import {sidebar, logo_container, logo_sidebar, sidebar_tag} from '@/styles/Sidebar.module.css';
+import { sidebar, logo_container, logo_sidebar, sidebar_tag } from '@/styles/Sidebar.module.css';
 import Category from './Category';
 import Price from './Delivery';
 import { assets } from '@/assets/assets';

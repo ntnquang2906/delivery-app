@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from 'react';
+import Link from 'next/link'
 
 export default function ShoppingCart() {
     const [cart, setCart] = useState([]);
@@ -98,7 +99,9 @@ export default function ShoppingCart() {
                                     <span style={{ fontWeight: 'bold' }}>Total:</span>
                                     <span style={{ fontWeight: 'bold' }}>${total.toFixed(2)}</span>
                                 </div>
-                                <button style={{ backgroundColor: 'blue', color: 'white', padding: '10px', borderRadius: '5px', marginTop: '20px' }}>Checkout</button>
+                                <Link href='/payment'>
+                                    <button style={{ backgroundColor: 'blue', color: 'white', padding: '10px', borderRadius: '5px', marginTop: '20px' }}>Checkout</button>
+                                </Link>
                             </>
                         )}
                     </div>

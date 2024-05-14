@@ -63,24 +63,24 @@ import rating_starts from './rating_starts.png'
 
 export const assets = {
     logo,
-//     basket_icon,
-//     header_img,
-//     search_icon,
+    //     basket_icon,
+    //     header_img,
+    //     search_icon,
     rating_starts,
-//     add_icon_green,
-//     add_icon_white,
-//     remove_icon_red,
-//     app_store,
-//     play_store,
-//     linkedin_icon,
-//     facebook_icon,
-//     twitter_icon,
-//     cross_icon,
-//     selector_icon,
-//     profile_icon,
-//     logout_icon,
-//     bag_icon,
-//     parcel_icon
+    //     add_icon_green,
+    //     add_icon_white,
+    //     remove_icon_red,
+    //     app_store,
+    //     play_store,
+    //     linkedin_icon,
+    //     facebook_icon,
+    //     twitter_icon,
+    //     cross_icon,
+    //     selector_icon,
+    //     profile_icon,
+    //     logout_icon,
+    //     bag_icon,
+    //     parcel_icon
 }
 
 
@@ -104,48 +104,48 @@ export const restaurant_list = [
         category: "Salad"
     },
     {
-        _id: "1",
-        name: "McDonald's (Wollongong)",
+        _id: "3",
+        name: "McDonald'ss (Wollongong)",
         image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         time: 12,
         fee: 8,
         category: "Salad"
     },
     {
-        _id: "2",
-        name: "KFC (Fairy Meadow)",
+        _id: "4",
+        name: "KFCc (Fairy Meadow)",
         image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
     },
     {
-        _id: "1",
-        name: "McDonald's (Wollongong)",
+        _id: "5",
+        name: "McDonald'sss (Wollongong)",
         image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         time: 12,
         fee: 8,
         category: "Salad"
     },
     {
-        _id: "2",
-        name: "KFC (Fairy Meadow)",
+        _id: "6",
+        name: "KFCcc (Fairy Meadow)",
         image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
     },
     {
-        _id: "1",
-        name: "McDonald's (Wollongong)",
+        _id: "7",
+        name: "McDonald'ssss (Wollongong)",
         image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         time: 12,
         fee: 8,
         category: "Salad"
     },
     {
-        _id: "2",
-        name: "KFC (Fairy Meadow)",
+        _id: "8",
+        name: "KFCccc (Fairy Meadow)",
         image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",

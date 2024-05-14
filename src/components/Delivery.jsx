@@ -1,5 +1,5 @@
 import React from 'react'
-import {price_title, price_content, price_box, price, check} from '@/styles/Delivery.module.css'
+import { price_title, price_content, price_box, price, check } from '@/styles/Delivery.module.css'
 const Delivery = () => {
     return (
         <div class="price_card">

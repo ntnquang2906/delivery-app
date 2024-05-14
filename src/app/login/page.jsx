@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import { container, header, text, inputs, input, icon, forgot_password, remember_forget, button_continue, submit_container, button_gray, submit } from '@/styles/LoginSignup.module.css'
 import { FaUser, FaLock, FaPhoneAlt } from "react-icons/fa";
+import Link from 'next/link'
 
 export const LoginSignup = () => {
 
@@ -37,7 +38,9 @@ export const LoginSignup = () => {
             </div>
             }
             <div>
-                <button className={button_continue}>Continue</button>
+                <Link href="/explore-restaurant">
+                    <button className={button_continue}>Continue</button>
+                </Link>
             </div>
             <div className={submit_container}>
                 <div className={action === "Login" ? button_gray : submit} onClick={() => { setAction("Sign Up") }}>Sign Up</div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import logo from '@/assets/logo.png'
+import Link from 'next/link'
 
 const OrderSubmittedPage = () => {
     return (
@@ -35,7 +36,7 @@ const OrderSubmittedPage = () => {
                     <Image
                         src={logo}
                         alt="Order Submitted"
-                        width={32} height= {32} 
+                        width={32} height={32}
                     />
                     <h2 style={{ color: '#4CAF50', margin: 0 }}>ORDER SUBMITTED</h2>
                 </div>
@@ -109,30 +110,34 @@ const OrderSubmittedPage = () => {
                         marginTop: '20px',
                     }}
                 >
-                    <button
-                        style={{
-                            backgroundColor: '#4CAF50',
-                            color: 'white',
-                            border: 'none',
-                            padding: '10px 20px',
-                            borderRadius: '4px',
-                            cursor: 'pointer',
-                        }}
-                    >
-                        PROVIDE FEEDBACK
-                    </button>
-                    <button
-                        style={{
-                            backgroundColor: '#4CAF50',
-                            color: 'white',
-                            border: 'none',
-                            padding: '10px 20px',
-                            borderRadius: '4px',
-                            cursor: 'pointer',
-                        }}
-                    >
-                        BACK TO HISTORY
-                    </button>
+                    <Link href='/review-rating'>
+                        <button
+                            style={{
+                                backgroundColor: '#4CAF50',
+                                color: 'white',
+                                border: 'none',
+                                padding: '10px 20px',
+                                borderRadius: '4px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            PROVIDE FEEDBACK
+                        </button>
+                    </Link>
+                    <Link href='/explore-restaurant'>
+                        <button
+                            style={{
+                                backgroundColor: '#4CAF50',
+                                color: 'white',
+                                border: 'none',
+                                padding: '10px 20px',
+                                borderRadius: '4px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            BACK TO HOMEPAGE
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>

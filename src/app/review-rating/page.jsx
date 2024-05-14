@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import rating_starts from '@/assets/rating_starts.png';
+import Link from 'next/link'
 
 const RatingPage = () => {
     return (
@@ -104,30 +105,34 @@ const RatingPage = () => {
                         width: '100%',
                     }}
                 >
-                    <button
-                        style={{
-                            backgroundColor: '#4CAF50',
-                            color: 'white',
-                            border: 'none',
-                            padding: '10px 20px',
-                            borderRadius: '4px',
-                            cursor: 'pointer',
-                        }}
-                    >
-                        SUBMIT RATING
-                    </button>
-                    <button
-                        style={{
-                            backgroundColor: '#4CAF50',
-                            color: 'white',
-                            border: 'none',
-                            padding: '10px 20px',
-                            borderRadius: '4px',
-                            cursor: 'pointer',
-                        }}
-                    >
-                        BACK TO HISTORY
-                    </button>
+                    <Link href='/explore-restaurant'>
+                        <button
+                            style={{
+                                backgroundColor: '#4CAF50',
+                                color: 'white',
+                                border: 'none',
+                                padding: '10px 20px',
+                                borderRadius: '4px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            SUBMIT RATING
+                        </button>
+                    </Link>
+                    <Link href='/personal-information'>
+                        <button
+                            style={{
+                                backgroundColor: '#4CAF50',
+                                color: 'white',
+                                border: 'none',
+                                padding: '10px 20px',
+                                borderRadius: '4px',
+                                cursor: 'pointer',
+                            }}
+                        >
+                            BACK TO HISTORY
+                        </button>
+                    </Link>
                 </div>
             </main>
         </div>
