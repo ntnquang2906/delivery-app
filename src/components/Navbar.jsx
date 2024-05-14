@@ -25,7 +25,7 @@ const Navbar = () => {
 
             <div className={navbar_right}>
                 <Link href='/personal-information'>
-                <FaUser className={user_icon} />
+                    <FaUser className={user_icon} />
                 </Link>
                 <div className={shopping}>
                     <Link href="/shopping-cart" passHref legacyBehavior>
