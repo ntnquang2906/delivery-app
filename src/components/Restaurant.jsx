@@ -10,7 +10,7 @@ const Restaurant = ({ id, name, time, fee, image }) => {
         <Link href='/browse-item'>
             <div className={restaurant}>
                 <div className={restaurant_img_container}>
-                    <img className={restaurant_image} src={image} alt="" />
+                    <img className={restaurant_image} src={image} alt="" width= "50px" heigt= "50px" objectFit="cover" mb={4} />
                 </div>
                 <div className={reastaurant_info}>
                     <div className={restaurant_rating}>

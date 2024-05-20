@@ -97,7 +97,7 @@ const OrderSubmittedPage = () => {
                         }}
                     >
                         <img
-                            src="/qr-code.png"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmWUTqAhTw20Z-XS0LRKM2CzjKetp93S9CYPoQdaHUdw&s"
                             alt="QR Code"
                             style={{ width: '100px', height: '100px' }}
                         />

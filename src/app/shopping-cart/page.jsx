@@ -12,7 +12,7 @@ export default function ShoppingCart() {
             name: 'Nachos',
             price: 19,
             description: 'Delicious nachos with cheese, guacamole, and salsa',
-            image: 'https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-superJumbo.jpg'
+            image: 'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2022/03/Nachos-main-1.jpg'
         },
         {
             id: 2,
@@ -26,7 +26,7 @@ export default function ShoppingCart() {
             name: 'Coke',
             price: 5,
             description: 'Refreshing Coca-Cola drink',
-            image: 'https://static01.nyt.com/images/2024/01/10/multimedia/AS-Burrito-vzhk/AS-Burrito-vzhk-superJumbo.jpg'
+            image: 'https://media.istockphoto.com/id/458464735/photo/coke.jpg?s=612x612&w=0&k=20&c=YbmiazMmY0DkWh_W8T0pBkOgai2k62hGF1TJn9EC5W0='
         }
     ];
 

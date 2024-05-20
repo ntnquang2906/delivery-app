@@ -90,7 +90,7 @@ export const restaurant_list = [
     {
         _id: "1",
         name: "McDonald's (Wollongong)",
-        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
+        image: "https://assets-global.website-files.com/63f6e52346a353ca1752970e/644fb7a67678b8a9fe0db1fe_20230501T1259-96320b36-97db-4f1f-8c02-54f4c2a7cae4.jpeg",
         time: 12,
         fee: 8,
         category: "Salad"
@@ -98,55 +98,71 @@ export const restaurant_list = [
     {
         _id: "2",
         name: "KFC (Fairy Meadow)",
-        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
+        image: "https://kyluc.vn/Editor/assets/chau%20chau/Lich%20su%20DN/kfc.png",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
     },
     {
         _id: "3",
-        name: "McDonald'ss (Wollongong)",
-        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
+        name: "Gusman Y Gomez (Wollongong)",
+        image: "https://play-lh.googleusercontent.com/xdtEZMg172sRjrBaDuSNe1tiDz_mjmqMuYOLOcFSWFEvBbhqgWglJbA9kVu0GBpe5-o",
         time: 12,
         fee: 8,
         category: "Salad"
     },
     {
         _id: "4",
-        name: "KFCc (Fairy Meadow)",
-        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
+        name: "Nene Chicken (Wollongong)",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVHIZu5zlkO9aDpSpbB2IoK_h2tFJgJNFm-pHxP9S3WQ&s",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
     },
     {
         _id: "5",
-        name: "McDonald'sss (Wollongong)",
-        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
+        name: "Chicken V (Wollongong)",
+        image: "https://cessnockvillage.com.au/wp-content/uploads/2021/08/Cessnock_RetailerLogos-ChickenV.jpg",
         time: 12,
         fee: 8,
         category: "Salad"
     },
     {
         _id: "6",
-        name: "KFCcc (Fairy Meadow)",
-        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
+        name: "Broaster Chicken (Wollongong)",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThVHmQ6S0ATnsxecQZlzQxinCOYl0GOmtQL_L-YxZjGQ&s",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
     },
     {
         _id: "7",
-        name: "McDonald'ssss (Wollongong)",
-        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
+        name: "Hungry Jack's (Wollongong)",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcTOuAjKC20-dVARQsxRyDUcG_3pgJKHwW4p5S224IyQ&s",
         time: 12,
         fee: 8,
         category: "Salad"
     },
     {
         _id: "8",
-        name: "KFCccc (Fairy Meadow)",
-        image: "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MTY2MTU3Ny13aWtpbWVkaWEtaW1hZ2Uta293YXBlZWouanBn.jpg",
+        name: "Subway (Wollongong)",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ZmwGzT6fvhZAcUqKvNGBWtMBYl7HYATj8Px_5ol0qQ&s",
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "9",
+        name: "Domino's Pizza (Wollongong)",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsjzAJJBi5QLgVAxZCM6SZegq3qmm3Qf9LKiQapWjAuA&s",
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "10",
+        name: "Pizza Hut (Wollongong)",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjwUIHJ6mViiQJj-Fw-cfNaBVk5HJWHdKoho9zNUnu8Q&s",
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Salad"
