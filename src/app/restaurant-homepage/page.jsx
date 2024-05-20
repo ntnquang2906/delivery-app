@@ -132,7 +132,6 @@ const RestaurantManager = () => {
             </div>
             <div className="container">
                 <div className="sidebar">
-                    <h2>Options</h2>
                     <button
                         onClick={() => handleOptionClick('orderRequest')}
                         className={selectedOption === 'orderRequest' ? 'active' : ''}
@@ -173,8 +172,7 @@ const RestaurantManager = () => {
                                 <div className="order-request">
                                     <p>Name</p>
                                     <div className="content-actions">
-                                        <button onClick={handleAccept}>Accept</button>
-                                        <button onClick={handleDecline} className="decline">Decline</button>
+                                        <p>7 minutes</p>
                                     </div>
                                 </div>
                             </>
